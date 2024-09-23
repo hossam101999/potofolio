@@ -289,7 +289,7 @@ function App() {
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">
                     <i className="fa-brands fa-angular me-3 text-[#2965f1] text-2xl"></i>
-                    Angular
+                    Angular 
                   </h2>
                   <p className="text-gray-500">85%</p>
                 </div>
