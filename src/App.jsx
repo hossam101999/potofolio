@@ -12,6 +12,7 @@ import myCv from "./PDFs/Hossam-Salah-Khatab-CV.pdf";
 import { useEffect, useState } from "react";
 import { EmailForm } from "./EmailForm.jsx";
 import kaspe from "./assets/kaspe.png";
+
 function App() {
   const [scrolling, setScrolling] = useState(false);
 
