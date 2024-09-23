@@ -11,7 +11,7 @@ import ArrowDown from "./assets/arrow-down.svg";
 import myCv from "./PDFs/Hossam-Salah-Khatab-CV.pdf";
 import { useEffect, useState } from "react";
 import { EmailForm } from "./EmailForm.jsx";
-
+import kaspe from "./assets/kaspe.png";
 function App() {
   const [scrolling, setScrolling] = useState(false);
 
@@ -138,13 +138,7 @@ function App() {
                 <img src={Ecommerce} className="w-full h-[30vh]" />
                 <h3 className="text-2xl font-semibold mt-8">E-commerce</h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  <i>Responsive React Js App with APIs about E-commerce</i>{" "}
-                  <br />
-                  • Offer many subjects for many years <br />
-                  • Display results and wrong, correct answers for every
-                  question <br />
-                  • The results and answers coming from the backend <br />•{" "}
-                  Automated corrected
+                  <i>Responsive Angular App with APIs dummy</i>{" "}
                 </p>
                 <div className="flex justify-between gap-2 mt-12 items-end">
                   <a
@@ -167,15 +161,12 @@ function App() {
                   </a>
                 </div>
               </div>
+
               <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={ExamGate} className="w-full h-[30vh]" />
                 <h3 className="text-2xl font-semibold mt-8">Exam Gate</h3>
                 <p className="text-gray-400 text-sm mt-2">
                   <i>Exam Automated an Offers Application Web Responsive</i>
-                  • Offer many subjects for many years <br />
-                  • Display results and wrong, correct answers for every
-                  question <br /> • The results and answers coming from the
-                  backend <br /> • Automated corrected
                 </p>
                 <div className="flex mt-5 gap-2">
                   <a
@@ -190,21 +181,32 @@ function App() {
                 </div>
               </div>
             </div>
+
             <div className="flex flex-col sm:flex-row gap-10 mt-11">
               <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={Elzero} className="w-full h-[30vh]" />
-                <h3 className="text-2xl font-semibold mt-8">pizaproject</h3>
+                <h3 className="text-2xl font-semibold mt-8">ُfull-E-comerce</h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  Responsive HTML/CSS layout for landing page with animation
+                  in this project me and my team made a full e-commerce using
+                  angular and node
                 </p>
                 <div className="flex justify-between gap-2 mt-12 items-end">
                   <a
-                    href="https://drive.google.com/drive/folders/1AyP7HRwTIox0yMrTFQNfpVw1b3nySv3e"
+                    href="https://itians-ecommerce-team.vercel.app/"
+                    className="w-1/2"
+                    target="_blank"
+                  >
+                    <button className="w-full text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                      Live preview
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/hossam101999/E-comerce"
                     className="w-1/2"
                     target="_blank"
                   >
                     <button className="w-full text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
-                      Checkout drive
+                      Checkout github
                     </button>
                   </a>
                 </div>
@@ -239,6 +241,24 @@ function App() {
                 </div>
               </div>
             </div>
+            <div className="border border-gray-500 rounded-md p-5 flex-1 w-50 p-20">
+              <img src={kaspe} className="w-full h-[30vh]" />
+              <h3 className="text-2xl font-semibold mt-8">blog page</h3>
+              <p className="text-gray-400 text-sm mt-2">
+                <i>Exam plog page Web Responsive by react </i>
+              </p>
+              <div className="flex mt-5 gap-2">
+                <a
+                  href="https://github.com/hossam101999/reactblog"
+                  target="_blank"
+                  className="block w-full"
+                >
+                  <button className="w-full text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                    cheackgithib
+                  </button>
+                </a>
+              </div>
+            </div>
           </div>
         </section>
         <section className="py-10" id="technologies">
@@ -260,6 +280,16 @@ function App() {
                   <h2 className="font-semibold">
                     <i className="fa-brands fa-css3 me-3 text-[#2965f1] text-2xl"></i>
                     CSS
+                  </h2>
+                  <p className="text-gray-500">85%</p>
+                </div>
+                <span className="w-[85%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+              </div>
+              <div className="mt-8">
+                <div className="flex justify-between items-center">
+                  <h2 className="font-semibold">
+                    <i className="fa-brands fa-angular me-3 text-[#2965f1] text-2xl"></i>
+                    Angular
                   </h2>
                   <p className="text-gray-500">85%</p>
                 </div>
@@ -422,7 +452,7 @@ function App() {
           onClick={() => {
             window.scrollTo(0, 0);
           }}
-        > 
+        >
           <img src={ArrowDown} />
         </button>
       )}
